@@ -1,0 +1,5 @@
+export const GET_USER_TODOS = '/all'
+export const CREATE_TODOS = '/create'
+export const REGISTRATION_ROUTE = '/registration'
+export const LOGIN_ROUTE = '/login'
+export const AUTH_ROUTE = '/auth'
