@@ -1,17 +1,45 @@
-# dependencies
-node_modules
-
-# env
+# ======================
+# ENV (везде)
+# ======================
 .env
+.env.*
+**/.env
 
-# build
-/build
-/dist
+# ======================
+# Node.js
+# ======================
+node_modules/
+**/node_modules/
 
-# logs
+# ======================
+# Build
+# ======================
+build/
+dist/
+**/build/
+**/dist/
+
+# ======================
+# Logs
+# ======================
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 
-# OS
+# ======================
+# OS files
+# ======================
 .DS_Store
+Thumbs.db
+
+# ======================
+# IDE / Editors
+# ======================
+.idea/
+.vscode/
+
+# ======================
+# Misc
+# ======================
+coverage/
